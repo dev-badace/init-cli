@@ -1,0 +1,20 @@
+{
+  "name": "initializer-node",
+  "version": "1.0.0",
+  "description": "This is a package initializer for boilerplate applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f .env node src/index.js"
+  },
+  "author": "Shivam Pal",
+  "license": "ISC",
+  "bin": {
+    "init": "src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "env-cmd": "^10.1.0",
+    "fs-extra": "^9.0.1",
+    "yargs": "^15.4.1"
+  }
+}
