@@ -5,4 +5,5 @@ process.env.SET_LOC = path.join(__dirname, "../set.json");
 
 require("./commands/setCommand");
 require("./commands/listCommand");
+require("./commands/deleteCommand");
 require("./commands/initCommand");

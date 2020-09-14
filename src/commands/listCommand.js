@@ -14,7 +14,7 @@ yargs.command({
 
       //loop over data and printout data.[property] property, which is where the name of set is stored
       for (let setName in data) {
-        process.stdout.write(setName);
+        process.stdout.write(`   ${setName} \n`);
       }
     } catch (e) {
       process.stderr.write(e.message);

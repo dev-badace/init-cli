@@ -45,6 +45,15 @@ const appendFile = async (filePath, Objdata) => {
   }
 };
 
+const writeFile = async (filePath, data) => {
+  try {
+    return await fs.writeFile(filePath, JSON.stringify({ ...data }));
+  } catch (e) {
+    console.log(e.message);
+    console.log(`${chalk.red("Error: Something went worng")}`);
+  }
+};
+
 const readFile = async (filePath) => {
   try {
     await fileCheck(filePath);
@@ -84,6 +93,7 @@ module.exports = {
   folderCheck,
   fileCheck,
   appendFile,
+  writeFile,
   copyDir,
   readFile,
 };

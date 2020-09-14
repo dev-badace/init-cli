@@ -1,3 +1,4 @@
+const path = require("path");
 const yargs = require("yargs");
 
 const files = require("../utils/files");
