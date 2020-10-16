@@ -12,7 +12,7 @@ You can try this cli, but i do not recommend using it in your prod environments 
 
 ## set command 
  
- # `init set -n <nameOfProject> -f <relative path to the folder>`
+ ## `init set -n <nameOfProject> -f <relative path to the folder>`
  
 ### the set command takes 3 arguments 
  
