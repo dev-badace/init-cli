@@ -6,7 +6,7 @@ You can try this cli, but i do not recommend using it in your prod environments 
 
 ### Commands 
 
-# `init` is the base command.
+## `init` is the base command.
 
 
 
@@ -14,7 +14,7 @@ You can try this cli, but i do not recommend using it in your prod environments 
  
  ## `init set -n <nameOfProject> -f <relative path to the folder>`
  
-# the set command takes 3 arguments 
+## the set command takes 3 arguments 
  
  ## required arguments for set command
  
